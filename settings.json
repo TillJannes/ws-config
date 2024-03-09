@@ -13,7 +13,6 @@
   "chat.editor.wordWrap": "on",
   "settingsSync.ignoredSettings": [],
 
-  "python.defaultInterpreterPath": "/Applications/anaconda3/envs/esnProject/bin/python",
   "python.terminal.activateEnvironment": false,
   "[python]": {"editor.formatOnType": true},
   "python.analysis.packageIndexDepths": [
