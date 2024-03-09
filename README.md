@@ -16,6 +16,7 @@
 	git clone https://github.com/marlonrichert/zsh-autocomplete.git $ZSH/plugins
 	git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k	
 ```
+You can also install zsh plugins via homebrew. Sourcing in .zshrc is then different.
 
 ## iterm2 customization
 ```bash
