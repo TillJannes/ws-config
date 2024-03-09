@@ -24,3 +24,10 @@ here: https://github.com/romkatv/powerlevel10k/blob/master/font.md. Instructions
 curl https://raw.githubusercontent.com/josean-dev/dev-environment-files/main/coolnight.itermcolors --output ~/Downloads/coolnight.itermcolors
 ```
 Will be added to Downloads folder. To activate, go to iterm2 > Preferences > Profiles > Colors > Import > Select imported profile
+
+## VS Code customization
+
+```bash
+rm /Users/Jannes/Library/Application\ Support/Code/User/settings.json && cp settings.json /Users/Jannes/Library/Application\ Support/Code/User     
+```
+Path has to be adjusted.
