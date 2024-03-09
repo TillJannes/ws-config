@@ -1,0 +1,14 @@
+dbeaver-community
+docker
+drawio
+firefox
+google-drive
+iterm2
+keepassxc
+mactex
+onedrive
+obsidian
+rectangle
+signal
+visual-studio-code
+whatsapp
