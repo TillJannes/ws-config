@@ -1,0 +1,8 @@
+consolidate all settings in .config folder in home dir
+perfect vim plugin in vscode and vscode combination https://code.visualstudio.com/docs/getstarted/settings#:~:text=You%20can%20open%20the%20settings,to%20using%20the%20default%20values.
+find how to declare plugins in settings.json so one does not have to install them manually
+change installation of oh-my-zsh-plugins to brew plugins so that they can be updated easier
+activate version control for .config
+add commit-types.txt
+add latex-setup with own repo
+add poetry setup
