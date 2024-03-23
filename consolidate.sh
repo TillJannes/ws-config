@@ -15,5 +15,12 @@ done
 
 # export brew formulae and casks
 echo now exporting formulae and casks
+for file in brew_formulae.txt brew_casks.txt
+do
+if [ -f $file ] 
+then
+rm $file
+fi
+done
 brew list --formulae -1 >> brew_formulae.txt
 brew list --casks -1 >> brew_casks.txt
