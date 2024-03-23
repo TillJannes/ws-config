@@ -17,6 +17,7 @@
   "settingsSync.ignoredSettings": [],
 
   "vim.vimrc.enable": true,
+  "vim.vimrc.path": "~/.vimrc",
 
   "python.terminal.activateEnvironment": false,
   "[python]": {"editor.formatOnType": true},
