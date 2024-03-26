@@ -1,23 +1,19 @@
 {
   "terminal.integrated.inheritEnv": false,
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "terminal.integrated.defaultProfile.osx": "zsh",
-  "terminal.external.osxExec": "iTerm.app",
-
   "workbench.editorAssociations": {"*.pdf": "latex-workshop-pdf-hook"},
+
   "workbench.startupEditor": "none",
   "workbench.settings.applyToAllProfiles": [],
-  "workbench.colorTheme": "Default Dark Modern",
 
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   
   "files.autoSave": "afterDelay",
   "chat.editor.wordWrap": "on",
-  "settingsSync.ignoredSettings": [],
-
-  "vim.vimrc.enable": true,
-  "vim.vimrc.path": "~/.vimrc",
+  "settingsSync.ignoredSettings": [
+    
+  ],
 
   "python.terminal.activateEnvironment": false,
   "[python]": {"editor.formatOnType": true},
@@ -76,4 +72,11 @@
   "latex-workshop.linting.chktex.exec.args": ["-wall", "-n22", "-n30","-e16", "-q", "-n3", "-n12", "-n35", "-n46"],
   "latex-workshop.synctex.synctexjs.enabled": true,
   "latex-workshop.synctex.afterBuild.enabled": true,
-  "latex-workshop.view.pdf.viewer": "tab"}
+  "latex-workshop.view.pdf.viewer": "tab",
+  "vim.vimrc.enable": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.external.osxExec": "iterm.app",
+  "editor.fontSize": 11,
+  "editor.tabSize": 2,
+  "workbench.tips.enabled": false
+}

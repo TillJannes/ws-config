@@ -1,5 +1,5 @@
 [user]
-	name = 
-	email = 
+	name = <user name>
+	email = <user email>
 [http]
 	postBuffer = 157286400

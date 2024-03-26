@@ -33,6 +33,7 @@ ncurses
 nmap
 openjpeg
 openssl@3
+parallel
 pcre
 pcre2
 postgresql@14

@@ -1,4 +1,12 @@
 # ws-config
+Use this repo to either copy your current work station setup or to set a new work station up from scratch. Built for MAC OS. Set up a new work station via
+```bash
+sh setup_all.sh
+```
+Copy current setup via
+```bash
+sh consolidate.sh
+```
 
 ## hombebrew plus formulae and casks
 ```bash
