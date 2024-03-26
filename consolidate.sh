@@ -9,10 +9,10 @@ fi
 
 # copy all conf files into project directory
 echo copying config files ...
-for path in $GITCONFIG_PATH $TMUX_CONF_PATH $VIMRC_PATH "$VSCODE_SETTINGS_JSON_PATH" $ZSHRC_PATH
+for path in $gitconfig_path $tmux_conf_path $vimrc_path "$vscode_settings_path" $zshrc_path
   do
   echo "   now copying $path"
-  cp "$path" $PROJECT_DIR
+  cp "$path" $project_dir
 done
 
 # export brew formulae and casks
