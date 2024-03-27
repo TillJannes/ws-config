@@ -33,11 +33,14 @@ code --list-extensions > code_extensions.txt
 
 # clean up
 echo cleaning up ...
-cat .gitconfig \
-  | sed 's/name =.*/name = <user name>/' \
-  | sed 's/email =.*/email = <user email>/' \
-  >> tmp.txt
-cat tmp.txt > .gitconfig
-rm tmp.txt
+if [ -f .gitconfig ]
+  then 
+  cat .gitconfig \
+    | sed 's/name =.*/name = <user name>/' \
+    | sed 's/email =.*/email = <user email>/' \
+    >> tmp.txt
+  cat tmp.txt > .gitconfig
+  rm tmp.txt
+fi
 
 echo --- complete ---

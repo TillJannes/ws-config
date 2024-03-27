@@ -8,27 +8,25 @@ export PATH="/usr/local/bin/pygmentize /usr/bin/python3 $HOME/.config":$PATH
 export ZSH="$HOME/.oh-my-zsh"
 
 #ZSH customization
-
 ZSH_TMUX_AUTOSTART=true
 ZSH_THEME="powerlevel10k/powerlevel10k"
-
-plugins=(
-	git
-	tmux
-	zsh-autosuggestions 
-	zsh-syntax-highlighting 
-	zsh-history-substring-search
-)
-
-source $ZSH/oh-my-zsh.sh
-
-# User configuration
 
 ZSH_HIGHLIGHT_HIGHLIGHTERS+=(brackets pattern cursor)
 ZSH_HIGHLIGHT_STYLES[bracket-level-1]='fg=blue,bold'
 ZSH_HIGHLIGHT_STYLES[bracket-level-2]='fg=red,bold'
 ZSH_HIGHLIGHT_STYLES[bracket-level-3]='fg=yellow,bold'
 ZSH_HIGHLIGHT_STYLES[bracket-level-4]='fg=magenta,bold'
+
+plugins=(
+	git
+	zsh-autosuggestions 
+	zsh-syntax-highlighting 
+	fast-syntax-highlighting
+	tmux
+	zsh-history-substring-search
+)
+
+source $ZSH/oh-my-zsh.sh
 
 # aliases
 alias ls="ls -a -G"
