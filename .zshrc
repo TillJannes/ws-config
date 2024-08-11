@@ -8,7 +8,6 @@ export PATH="/usr/local/bin/pygmentize /usr/bin/python3 $HOME/.config":$PATH
 export ZSH="$HOME/.oh-my-zsh"
 
 #ZSH customization
-ZSH_TMUX_AUTOSTART=true
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 ZSH_HIGHLIGHT_HIGHLIGHTERS+=(brackets pattern cursor)
@@ -22,7 +21,6 @@ plugins=(
 	zsh-autosuggestions 
 	zsh-syntax-highlighting 
 	fast-syntax-highlighting
-	tmux
 	zsh-history-substring-search
 )
 
@@ -30,7 +28,6 @@ source $ZSH/oh-my-zsh.sh
 
 # aliases
 alias ls="ls -a -G"
-alias python="python3.12"
 alias git='LANG=en_US git'
 alias tmks='tmux kill-session'
 
@@ -49,3 +46,13 @@ bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
+# Setting up pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init --path)"
+  eval "$(pyenv init -)"
+fi
+
+# Created by `pipx` on 2024-08-10 12:13:21
+export PATH="$PATH:/Users/Jannes/.local/bin"

@@ -78,5 +78,8 @@
   "terminal.external.osxExec": "iterm.app",
   "editor.fontSize": 11,
   "editor.tabSize": 2,
-  "workbench.tips.enabled": false
+"workbench.tips.enabled": false,
+"git.confirmSync": false,
+"editor.wordWrap": "on",
+"jupyter.askForKernelRestart": false
 }
